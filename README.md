@@ -18,4 +18,5 @@ A Node Express mySQL boilerplate that runs on AWS Lambda, a service that runs se
 - ![image](https://github.com/HenjiShip/LambdaBoiler/assets/128566052/8675bb43-bd75-4fe8-ade2-ed161e64d482)
 5. Add the intended Lambda functions to this api on the next page, in this case I named my Lambda functions "express"
 - ![image](https://github.com/HenjiShip/LambdaBoiler/assets/128566052/c6d16732-2bde-4e5b-ad4a-8226ae935250)
-
+6. The url to your API will go as "{AWS generated url}.execute-api.us-east-2.amazonaws.com/{API gateway resource name}/{Express endpoints}
+   Ex: "https://111111111.execute-api.us-east-2.amazonaws.com/prod/hello"
