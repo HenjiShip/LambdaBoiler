@@ -1,7 +1,8 @@
 # Lambda Boilerplate
 A Node Express mySQL boilerplate that runs on AWS Lambda, a service that runs serverless functions on a "pay as needed" model. It's also always free so it's nice to host small demo projects on it. 
 ### Why?
-I prefer to use express to set my endpoints in VScode and I don't like using Amazon's API gateway interface.
+- I prefer to use express to set my endpoints in VScode and I don't like using Amazon's API gateway interface.
+- Serverless functions are great for functions that have short execution times, things that don't take long to compute
 ### Packages installed
 - npm i serverless-http (lets express run on Lambda serverless)
 - npm i express
