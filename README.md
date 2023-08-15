@@ -7,6 +7,7 @@ I prefer to use express to set my endpoints in VScode and I don't like using Ama
 - npm i express
 ### Sidenotes
 - AWS Lambda only runs on CommonJS.
+- Lambda has cold starts, run functions periodically for warm starts: [https://docs.aws.amazon.com/lambda/latest/operatorguide/execution-environments.html](https://www.pluralsight.com/resources/blog/cloud/how-to-keep-your-lambda-functions-warm)
 ### Lambda Steps
 1. Create Lambda functions, click upload, and place files as zip into functions
 2. Go to API Gateway, click create API, and build REST API and create API with default settings
