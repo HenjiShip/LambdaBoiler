@@ -12,6 +12,6 @@ A Node Express mySQL boilerplate that runs on AWS Lambda, a serverless function 
 - ![image](https://github.com/HenjiShip/LambdaBoiler/assets/128566052/91de40ed-8a17-4698-a368-0f347910774b)
 4. Check "Configure as proxy resource", this will let express be in charge of API endpoints instead of API gateway
 - ![image](https://github.com/HenjiShip/LambdaBoiler/assets/128566052/8675bb43-bd75-4fe8-ade2-ed161e64d482)
-5. Add the intended Lambda functions to this api on the next page
+5. Add the intended Lambda functions to this api on the next page, in this case I named my Lambda functions "express"
 - ![image](https://github.com/HenjiShip/LambdaBoiler/assets/128566052/c6d16732-2bde-4e5b-ad4a-8226ae935250)
 
