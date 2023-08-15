@@ -1,12 +1,12 @@
 # LambdaBoiler
 A Node Express mySQL boilerplate that runs on AWS Lambda, a serverless function service. AWS Lambda only runs on CommonJS.
-# Why?
+### Why?
 I prefer to use express to set my endpoints in VScode and I don't like using Amazon's API gateway interface.
-# Packages installed
+### Packages installed
 - npm i serverless-http (lets express run on Lambda serverless)
 - npm i express
 
-# Lambda Steps
+### Lambda Steps
 1. Create Lambda functions, click upload, and place files as zip into functions
 2. Go to API Gateway, click create API, and build REST API and create API with default settings
 3. Click actions on the API page and create resource
