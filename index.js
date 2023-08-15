@@ -1,9 +1,10 @@
-import express from "express";
-import serverless from "serverless-http";
+const express = require("express");
+const serverless = require("serverless-http");
 const app = express();
 // const port = 3000;
 
 app.use(express.json());
+console.log("hello world");
 
 app.get("/hello", (req, res) => {
   res.send("hello world");
