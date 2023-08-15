@@ -1,4 +1,4 @@
-const databaseSQL = require("../databaseSQL");
+const databaseSQL = require("../databases/databaseSQL");
 
 const helloWorld = async (req, res) => {
   try {
@@ -21,7 +21,7 @@ const getNotes = async (req, res) => {
     const [rows] = await databaseSQL.query(`SELECT * FROM notes`);
     res.send(rows);
   } catch (error) {
-    console.error(error);
+    // console.error(error);
     res.status(500).json({ error: "An error occurred in getNotes" });
   }
 };
