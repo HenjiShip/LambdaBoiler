@@ -30,7 +30,7 @@ const nativeDoc = async (req, res) => {
 
     // Perform MongoDB operations here
     const collection = db.collection("Grape");
-    const result = await collection.insertOne({ name: "John" });
+    const result = await collection.insertOne({ name: "large grape" });
 
     res.send(result);
   } catch (error) {
