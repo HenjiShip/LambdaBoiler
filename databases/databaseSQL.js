@@ -1,3 +1,4 @@
+// mysql recreates a connection each time a query is called and mongodb always has that connection running
 // mySQL template connection
 // npm i mysql2
 // npm i dotenv --save (install dotenv locally)
