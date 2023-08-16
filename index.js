@@ -3,10 +3,9 @@ const serverless = require("serverless-http");
 const app = express();
 const port = 3000;
 
+const routes = require("./routes/routes");
 // mongodb connection
 const connect = require("./databases/databaseNoSQL");
-
-const routes = require("./routes/routes");
 
 connect();
 app.use(express.json());
