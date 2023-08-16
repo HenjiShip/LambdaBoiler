@@ -5,10 +5,15 @@ const {
   helloWorld,
   goodBye,
   getNotes,
-} = require("../controllers/routeFunctions");
+} = require("../controllers/sqlFunctions");
+
+const { createDoc, nativeDoc } = require("../controllers/nosqlFunctions");
 
 router.get("/hello", helloWorld);
 router.get("/goodbye", goodBye);
 router.get("/notes", getNotes);
+
+router.get("/nosql", createDoc); 
+router.get("/nativenosql", nativeDoc);
 
 module.exports = router;
